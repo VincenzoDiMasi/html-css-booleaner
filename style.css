@@ -14,6 +14,12 @@ header {
     font-size: 50px;
 }
 
+.imgt {
+    width: 49%;
+    height: 500px;
+}
+
+
 address {
     font-style: normal;
 }
@@ -31,12 +37,24 @@ article {
     font-size: 20px;
 }
 
-#highlight {
+ul {
+    margin-left: -27px;
+}
+
+.highlight {
     background-color: yellow;
 }
 
-li {
-    margin-left: 0px;
+table {
+    border-spacing: 0px;
+}
+
+.first {
+    width: 25%;
+}
+
+.third {
+    width: 50%;
 }
 
 thead {
@@ -50,21 +68,30 @@ tbody {
 
 #bianco {
     background-color: white;
-}
+}   
 
 h2 {
     color: grey;
 }
 
 #monitor {
-    background-image: url(img/monitor.jpg);
-    padding: 50px;
-    padding-right: 0px;
+    background-image: url("img/monitor.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
     color: white;
+    margin-bottom: -90px;
 }
 
 #grafico {
-    background-image: url(img/graph.jpg);
+    background-image: url("img/graph.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
     color: white;
-    padding: 50px;
+}
+
+.interessi2 {
+    padding-top: 10px;
+    padding-left: 5px;
 }
