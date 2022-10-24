@@ -24,7 +24,7 @@ address {
 }
 
 #boo {
-    color: rgb(47, 181, 233);
+    color: rgb(41, 213, 239);
 }
 
 article {
@@ -33,4 +33,38 @@ article {
 
 #highlight {
     background-color: yellow;
+}
+
+li {
+    margin-left: 0px;
+}
+
+thead {
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 173, 243);
+}
+
+tbody {
+    background-color: aqua;
+}
+
+#bianco {
+    background-color: white;
+}
+
+h2 {
+    color: grey;
+}
+
+#monitor {
+    background-image: url(img/monitor.jpg);
+    padding: 50px;
+    padding-right: 0px;
+    color: white;
+}
+
+#grafico {
+    background-image: url(img/graph.jpg);
+    color: white;
+    padding: 50px;
 }
