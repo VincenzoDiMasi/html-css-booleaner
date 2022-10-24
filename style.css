@@ -26,3 +26,11 @@ address {
 #boo {
     color: rgb(47, 181, 233);
 }
+
+article {
+    font-size: 20px;
+}
+
+#highlight {
+    background-color: yellow;
+}
